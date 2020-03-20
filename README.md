@@ -35,7 +35,7 @@
 	
 * jpg_upload_server.c / jpg_upload_client.c
 	* discripion\
-	.txt 이외의 .jpg, .wav 등 다양한 형식의 파일을 업로드하는 파일입니다.
+	.txt  .jpg, .wav 등 다양한 형식의 파일을 업로드하는 파일입니다.
 	
 	* usage
 	
