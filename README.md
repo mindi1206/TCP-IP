@@ -17,13 +17,21 @@
 		./file_download_client 127.0.0.1 5241
 	```
   * 실행결과
-* file_upload_server.c / file upload_server.c
+* file_upload_server.c / file_upload_client.c
 	* discription\
 			client 에 저장되어있는 파일 중 하나를 server에 저장하는 코드 입니다.\
 			client 에서 파일이름을 입력받아 있으면 업로드, 없으면 소켓을 닫습니다.\
 			** .txt파일만 가능
  
 	* usage
+	```c
+		gcc file_upload_server.c -o file_upload_server
+		./file_upload_server 5241
+	```
+	```c
+		gcc file_upload_client.c -o file_upload_client
+		./file_upload_client 127.0.0.1 5241
+	```
 	
 * jpg_upload_server.c / jpg_upload_client.c
 	* discripion\
