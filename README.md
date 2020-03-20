@@ -1,5 +1,5 @@
 # TCP-IP
-# HOW TO USE
+## HOW TO USE
 
 * file_download_server.c / file_download_client.c
 	* discription\
@@ -17,6 +17,7 @@
 		./file_download_client 127.0.0.1 5241
 	```
   * 실행결과
+  
 * file_upload_server.c / file_upload_client.c
 	* discription\
 			client 에 저장되어있는 파일 중 하나를 server에 저장하는 코드 입니다.\
